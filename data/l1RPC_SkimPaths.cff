@@ -1,4 +1,4 @@
-include "ElectroWeakAnalysis/WReco/data/l1RPCPaths.cfi"
+include "CalibMuon/RPCCalibration/data/l1RPCPaths.cfi"
 
 path l1RPCHLTPath = { 
 	l1RPCHLTFilter 

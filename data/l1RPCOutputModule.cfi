@@ -1,4 +1,4 @@
-include "ElectroWeakAnalysis/WReco/data/l1RPC_EventContent.cff"
+include "CalibMuon/RPCCalibration/data/l1RPC_EventContent.cff"
 
     module L1RPCEventContent = PoolOutputModule
     {
