@@ -1,0 +1,16 @@
+block l1RPC_EventContent = {
+  untracked vstring outputCommands = {
+    "drop *",
+    "keep RPCDetIdRPCDigiMuonDigiCollection_*_*_*",
+    "keep L1MuGMTCands_*_*_*",
+    "keep L1MuGMTReadoutCollection_*_*_*"
+  }
+}
+
+block l1RPCEventSelection = {
+  untracked PSet SelectEvents = {
+    vstring SelectEvents = {
+     "CandHLT1MuonLevel1"
+    }
+  }
+}
