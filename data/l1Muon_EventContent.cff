@@ -1,0 +1,19 @@
+block l1Muon_EventContent = {
+  untracked vstring outputCommands = {
+    "drop *",
+    "keep CSCDetIdCSCWireDigiMuonDigiCollection_*_*_*",
+    "keep CSCDetIdCSCStripDigiMuonDigiCollection_*_*_*",
+    "keep DTLayerIdDTDigiMuonDigiCollection_*_*_*",
+    "keep RPCDetIdRPCDigiMuonDigiCollection_*_*_*",
+    "keep L1MuGMTCands_*_*_*",
+    "keep L1MuGMTReadoutCollection_*_*_*"
+  }
+}
+
+block l1MuonEventSelection = {
+  untracked PSet SelectEvents = {
+    vstring SelectEvents = {
+     "l1MuonHLTPath"
+    }
+  }
+}
