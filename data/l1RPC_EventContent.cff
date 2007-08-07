@@ -10,7 +10,7 @@ block l1RPC_EventContent = {
 block l1RPCEventSelection = {
   untracked PSet SelectEvents = {
     vstring SelectEvents = {
-     "CandHLT1MuonLevel1"
+     "l1RPCHLTPath"
     }
   }
 }
