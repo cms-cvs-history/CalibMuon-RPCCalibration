@@ -1,4 +1,5 @@
-include "CalibMuon/RPCCalibration/data/l1MuonPaths.cfi"
+module  ALCARECORpcCalHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace ALCARECORpcCalHLTFilter.andOr = true # choose logical OR between Triggerbits
+replace ALCARECORpcCalHLTFilter.HLTPaths = {"HLT1MuonLevel1"}
 
-sequence seqALCARECORpcCalHLT = {l1MuonHLTFilter}
-
+sequence seqALCARECORpcCalHLT = {ALCARECORpcCalHLTFilter}
