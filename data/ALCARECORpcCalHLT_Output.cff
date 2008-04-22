@@ -1,6 +1,7 @@
 block OutALCARECORpcCalHLT = {
   untracked vstring outputCommands = {
     "drop *",
+    "keep *_muonDTDigis_*_*",
     "keep CSCDetIdCSCWireDigiMuonDigiCollection_*_*_*",
     "keep CSCDetIdCSCStripDigiMuonDigiCollection_*_*_*",
     "keep DTLayerIdDTDigiMuonDigiCollection_*_*_*",
