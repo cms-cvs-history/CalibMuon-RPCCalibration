@@ -1,0 +1,13 @@
+include "CondCore/DBCommon/data/CondDBSetup.cfi"
+
+#FRONTIER
+es_source RPCCalibPerf = PoolDBESSource { 
+     using CondDBSetup
+     string connect = "frontier://FrontierProd/CMS_COND_20X_RPC"
+     string timetype = "runnumber" 
+     untracked uint32 authenticationMethod = 0
+ 
+     VPSet toGet = { { string record = "RPCStripNoisesRcd" string tag ="Example_tag2" } }
+}
+################################################################################
+
