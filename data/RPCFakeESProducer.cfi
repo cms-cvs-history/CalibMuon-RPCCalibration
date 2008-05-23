@@ -7,4 +7,3 @@ es_source = RPCFakeCalibration{
         FileInPath clsmapfile = "CalibMuon/RPCCalibration/data/ClSizeTot.dat"
 } 
 
-
