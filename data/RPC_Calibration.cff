@@ -7,7 +7,7 @@ es_source RPCCalibPerf = PoolDBESSource {
      string timetype = "runnumber" 
      untracked uint32 authenticationMethod = 0
  
-     VPSet toGet = { { string record = "RPCStripNoisesRcd" string tag ="Example_tag2" } }
+     VPSet toGet = { { string record = "RPCStripNoisesRcd" string tag ="RPCStripNoises_mc" } }
 }
 ################################################################################
 
