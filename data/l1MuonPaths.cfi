@@ -2,6 +2,6 @@ module l1MuonHLTFilter = HLTHighLevel {
   InputTag TriggerResultsTag = TriggerResults
   bool byName = true
   bool andOr= true
-  vstring HLTPaths ={"HLT1MuonLevel1"}
+  vstring HLTPaths ={"HLT_L1Mu"}
 }
 
