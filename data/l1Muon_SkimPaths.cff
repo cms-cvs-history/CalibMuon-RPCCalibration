@@ -1,5 +1,0 @@
-include "CalibMuon/RPCCalibration/data/l1MuonPaths.cfi"
-
-path l1MuonHLTPath = { 
-	l1MuonHLTFilter 
-}
