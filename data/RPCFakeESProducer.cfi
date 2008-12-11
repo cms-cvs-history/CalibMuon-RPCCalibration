@@ -1,9 +1,0 @@
-# Module to create simulated RPC digis.
-
-es_source = RPCFakeCalibration{
-        FileInPath noisemapfile = "CalibMuon/RPCCalibration/data/RPCDetId_Noise.dat"
-        FileInPath effmapfile = "CalibMuon/RPCCalibration/data/RPCDetId_Eff.dat"
-	FileInPath timingMap  = "CalibMuon/RPCCalibration/data/RPCTiming.dat"
-        FileInPath clsmapfile = "CalibMuon/RPCCalibration/data/ClSizeTot.dat"
-} 
-
