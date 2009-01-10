@@ -1,5 +1,0 @@
-module  ALCARECORpcCalHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-replace ALCARECORpcCalHLTFilter.andOr = true # choose logical OR between Triggerbits
-replace ALCARECORpcCalHLTFilter.HLTPaths = {"HLT_L1Mu"}
-
-sequence seqALCARECORpcCalHLT = {ALCARECORpcCalHLTFilter}
